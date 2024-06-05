@@ -1,6 +1,9 @@
-import data from "../../data/data.json";
-import userImg from "../assets/user.png";
-import pfp1 from "../assets/profile_picture (1).jpg"
+import data from "../../../data/data.json";
+import userImg from "../../assets/user.png";
+import pfp1 from "../../assets/profile_picture (1).jpg"
+import linkedinImg from "../../assets/linkedin.png"
+import twitterImg from "../../assets/twitter.png"
+
 export default function Content() {
     return (
         <div className="content">

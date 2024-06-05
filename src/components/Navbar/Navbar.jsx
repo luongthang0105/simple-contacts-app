@@ -1,6 +1,6 @@
-import phoneImg from "../assets/phone.png";
-import userImg from "../assets/user.png";
-import downArrowImg from "../assets/down-arrow.png";
+import phoneImg from "../../assets/phone.png";
+import userImg from "../../assets/user.png";
+import downArrowImg from "../../assets/down-arrow.png";
 
 export default function Navbar() {
     return (
