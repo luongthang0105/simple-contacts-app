@@ -16,4 +16,9 @@ Link: https://darling-biscochitos-6f49d5.netlify.app/
 
 # Assumptions
 - This contact app is aimed to be used by businesses, as I have chosen to display their professional headshot, working email, websites, phone numbers, and social media.
-- As for responsiveness, the website works fine on desktop as it dynamically changes the number of contacts on a row. However, I didn't manage to get the website looks good on mobile phones.
+- As for responsiveness, I assume the website works resonable on desktop.
+
+# What I could have improved
+- Responsiveness on mobile phones. Cards are already responsive but the search bar is still too large and navbar is too packed when the width is low (around < 500px).
+- Hover effects on website links, email, and social media.
+- The transition of cards when searching for contacts is a bit too rigid. It would be better if the filter transition is as smooth as the contact hover transition.
