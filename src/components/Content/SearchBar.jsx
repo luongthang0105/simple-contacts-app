@@ -1,4 +1,4 @@
-import searchImg from '../../assets/search.png'
+import icons from '../../assets'
 import PropTypes from 'prop-types'
 
 export default function SearchBar(props) {
@@ -8,7 +8,7 @@ export default function SearchBar(props) {
 
     return (
         <div className="content--search">
-            <img className="content--search--icon" src={searchImg}></img>
+            <img className="content--search--icon" src={icons.searchImg}></img>
             <input 
                     className="content--search--input" 
                     placeholder="who do you wanna meet today?"
