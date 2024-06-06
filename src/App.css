@@ -82,10 +82,7 @@ body {
 }
 
 .content--contacts--card {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    line-height: 3.5em;
+   
     background-color: #FFE9C9;
     border-radius: 6.5em;
     border: 0.2em solid black;
@@ -93,11 +90,31 @@ body {
     justify-self: center;
 }
 
+.contacts--card--img-wrapper {
+    height: 25%;
+    
+    display: block;
+    width: 100%;
+}
+.content--contacts--card--info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 3.5em;
+    height: 75%;
+    width: 100%;
+}
 .content--contacts--card--img {
     display: block;
-    width: 26%;
+    width: 30%;
+    height: 100%;
+    /* width: 34%; */
+    /* height: 70px; */
+    /* max-width: 90px; */
     border-radius: 6.5em;
     margin-top: 2em;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .content--contacts--card--name {
