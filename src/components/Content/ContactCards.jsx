@@ -12,7 +12,7 @@ export default function ContactCards(props) {
     
     let idToPfp = {}
     filteredUsers.forEach((user) => {
-        idToPfp[user.id] = `src/assets/pfp/pfp(${user.id}).png`
+        idToPfp[user.id] = `/pfp/pfp(${user.id}).png`
     })
 
     return (
