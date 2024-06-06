@@ -24,4 +24,4 @@ dist-ssr
 *.sw?
 
 # Zone Identifier files from my local WSL
-Zone.Identifier
+**Zone.Identifier
