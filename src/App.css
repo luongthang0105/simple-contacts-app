@@ -22,10 +22,11 @@ body {
 .nav {
     min-height: 80px;
     width: 100%;
-    background-color: #FACD2D;
+    background-color: #9A1A42;
     display: flex;
     font-size: 2.4rem;
     align-items: center;
+    color: white
 }
 
 .nav--title {
@@ -65,7 +66,7 @@ body {
 .content {
     width: 100%;
     min-height: 100%;
-    background-color: #FFF5DB;
+    background-color: white;
     /* padding-left: 100px; */
 }
 
@@ -82,14 +83,19 @@ body {
 }
 
 .content--contacts--card {
-   
-    background-color: #FFE9C9;
+    background-color: white;
     border-radius: 6.5em;
-    border: 0.2em solid black;
+    /* border: 0.25em solid #9A1A42; */
     max-width: 300px;
     justify-self: center;
+    transition:0.2s;
+
 }
 
+.content--contacts--card:hover {
+    border: 0.1em solid #9A1A42;
+    filter: drop-shadow(0 0 1rem rgb(192, 190, 190));
+}
 .contacts--card--img-wrapper {
     height: 25%;
     
@@ -108,9 +114,6 @@ body {
     display: block;
     width: 30%;
     height: 100%;
-    /* width: 34%; */
-    /* height: 70px; */
-    /* max-width: 90px; */
     border-radius: 6.5em;
     margin-top: 2em;
     margin-left: auto;
@@ -127,12 +130,12 @@ body {
 
 .content--contacts--card--email {
     font-size: 1.8em;
-    color: #C59008;
+    color: #743B3B;
 }
 
 .content--contacts--card--website {
     font-size: 2em;
-    color: #D45C36;
+    color: #B0705C;
 }
 
 .content--contacts--card--phone {
